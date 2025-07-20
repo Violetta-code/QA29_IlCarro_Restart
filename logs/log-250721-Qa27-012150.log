@@ -1,0 +1,49 @@
+01:21:54.600 INFO  manager.ApplicationManager -- Open link --->https://ilcarro.web.app/search
+01:22:04.710 INFO  tests.TestBase -- Empty Email login started ===> User{email='', password='Atteloiv369!'}
+01:22:05.597 INFO  tests.TestBase -- Finish testing !!!!!!
+01:22:15.627 INFO  tests.TestBase -- Empty Password login started ===> User{email='solodka1998@mail.ru', password=''}
+01:22:16.449 INFO  tests.TestBase -- Finish testing !!!!!!
+01:22:26.497 INFO  tests.TestBase -- Space Email login started ===> User{email='   ', password='Atteloiv369!'}
+01:22:27.323 INFO  tests.TestBase -- Finish testing !!!!!!
+01:22:37.406 INFO  tests.TestBase -- Space Password login started ===> User{email='solodka1998@mail.ru', password='   '}
+01:22:39.551 INFO  tests.TestBase -- Finish testing !!!!!!
+01:22:49.621 INFO  tests.TestBase -- Success login started ===> solodka1998@mail.ruAtteloiv123!
+01:22:51.206 INFO  tests.TestBase -- Finish testing !!!!!!
+01:22:51.351 INFO  tests.TestBase -- Success login started ===> solodka19@mail.ruAtteloiv123!
+01:22:52.966 INFO  tests.TestBase -- Finish testing !!!!!!
+01:22:53.120 INFO  tests.TestBase -- Success login started ===> viola3@gmail.comAtteloiv123!
+01:22:54.737 INFO  tests.TestBase -- Finish testing !!!!!!
+01:22:54.882 INFO  tests.TestBase -- Success login started ===> via@mail.ruAtteloiv123!
+01:22:56.360 INFO  tests.TestBase -- Finish testing !!!!!!
+01:22:56.525 INFO  tests.TestBase -- Wrong Email login started ===> samba12@mail.ruAtteloiv369!
+01:23:08.096 INFO  tests.TestBase -- Finish testing !!!!!!
+01:23:18.131 INFO  tests.TestBase -- Wrong Email login started ===> solodka1998mail.ruAtteloiv369!
+01:23:19.133 INFO  tests.TestBase -- Finish testing !!!!!!
+01:23:29.178 INFO  tests.TestBase -- Wrong Email login started ===> solodka98@mail.ruAtteloiv369!
+01:23:40.707 INFO  tests.TestBase -- Finish testing !!!!!!
+01:23:50.720 INFO  tests.TestBase -- Wrong Email login started ===> solodka@mail.ruAtteloiv369!
+01:24:02.294 INFO  tests.TestBase -- Finish testing !!!!!!
+01:24:12.354 INFO  tests.TestBase -- Wrong Email login started ===> solodka1998@mail.comAtteloiv369!
+01:24:23.868 INFO  tests.TestBase -- Finish testing !!!!!!
+01:24:33.896 INFO  tests.TestBase -- Wrong Email login started ===> solodka1998@mail.ruAtteloiv369!
+01:24:45.453 INFO  tests.TestBase -- Finish testing !!!!!!
+01:24:55.470 INFO  tests.TestBase -- Wrong Password login started ===> solodka1998@mail.ruAtteloiv369
+01:24:57.040 INFO  tests.TestBase -- Finish testing !!!!!!
+01:25:07.089 INFO  tests.TestBase -- Wrong Password login started ===> solodka1998@mail.ruatteloiv369!
+01:25:08.978 INFO  tests.TestBase -- Finish testing !!!!!!
+01:25:19.012 INFO  tests.TestBase -- Wrong Password login started ===> solodka1998@mail.ruAtteloi369!
+01:25:20.616 INFO  tests.TestBase -- Finish testing !!!!!!
+01:25:30.641 INFO  tests.TestBase -- Wrong Password login started ===> solodka1998@mail.ruAtteloiv69!
+01:25:32.211 INFO  tests.TestBase -- Finish testing !!!!!!
+01:25:42.233 INFO  tests.TestBase -- Wrong Password login started ===> solodka1998@mail.ruAtteloiv!
+01:25:43.789 INFO  tests.TestBase -- Finish testing !!!!!!
+01:25:53.809 INFO  tests.TestBase -- Wrong Password login started ===> solodka1998@mail.ru357688369!
+01:25:55.400 INFO  tests.TestBase -- Finish testing !!!!!!
+01:26:05.431 INFO  tests.TestBase -- Wrong Password login started ===> solodka1998@mail.ruAtt369!
+01:26:06.974 INFO  tests.TestBase -- Finish testing !!!!!!
+01:26:17.019 INFO  tests.TestBase -- Wrong Password login started ===> solodka1998@mail.ru!!!!!
+01:26:18.554 INFO  tests.TestBase -- Finish testing !!!!!!
+01:26:28.573 INFO  tests.TestBase -- Wrong Password login started ===> solodka1998@mail.ruAtteloivvvvv
+01:26:30.273 INFO  tests.TestBase -- Finish testing !!!!!!
+01:26:40.307 INFO  tests.TestBase -- Wrong Password login started ===> solodka1998@mail.ruatteloivvvvv
+01:26:41.928 INFO  tests.TestBase -- Finish testing !!!!!!
