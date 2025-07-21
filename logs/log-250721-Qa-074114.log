@@ -1,0 +1,161 @@
+07:41:19.004 INFO  manager.ApplicationManager -- Open link --->https://ilcarro.web.app/search
+07:41:29.092 INFO  tests.TestBase -- Empty Email login started ===> User{email='', password='Atteloiv369!'}
+07:41:29.853 INFO  tests.TestBase -- Finish testing !!!!!!
+07:41:39.899 INFO  tests.TestBase -- Empty Password login started ===> User{email='solodka1998@mail.ru', password=''}
+07:41:40.566 INFO  tests.TestBase -- Finish testing !!!!!!
+07:41:50.580 INFO  tests.TestBase -- Space Email login started ===> User{email='   ', password='Atteloiv369!'}
+07:41:51.229 INFO  tests.TestBase -- Finish testing !!!!!!
+07:42:01.246 INFO  tests.TestBase -- Space Password login started ===> User{email='solodka1998@mail.ru', password='   '}
+07:42:03.648 INFO  tests.TestBase -- Finish testing !!!!!!
+07:42:13.675 INFO  tests.TestBase -- Success login started ===> solodka1998@mail.ruAtteloiv123!
+07:42:15.003 INFO  tests.TestBase -- Finish testing !!!!!!
+07:42:15.177 INFO  tests.TestBase -- Success login started ===> solodka19@mail.ruAtteloiv123!
+07:42:16.577 INFO  tests.TestBase -- Finish testing !!!!!!
+07:42:16.729 INFO  tests.TestBase -- Success login started ===> viola3@gmail.comAtteloiv123!
+07:42:18.005 INFO  tests.TestBase -- Finish testing !!!!!!
+07:42:18.119 INFO  tests.TestBase -- Success login started ===> via@mail.ruAtteloiv123!
+07:42:19.480 INFO  tests.TestBase -- Finish testing !!!!!!
+07:42:19.637 INFO  tests.TestBase -- Wrong Email login started ===> samba12@mail.ruAtteloiv369!
+07:42:30.941 INFO  tests.TestBase -- Finish testing !!!!!!
+07:42:40.995 INFO  tests.TestBase -- Wrong Email login started ===> solodka98@mail.ruAtteloiv369!
+07:42:52.268 INFO  tests.TestBase -- Finish testing !!!!!!
+07:43:02.309 INFO  tests.TestBase -- Wrong Email login started ===> solodka@mail.ruAtteloiv369!
+07:43:13.592 INFO  tests.TestBase -- Finish testing !!!!!!
+07:43:23.643 INFO  tests.TestBase -- Wrong Email login started ===> solodka1998@mail.comAtteloiv369!
+07:43:34.923 INFO  tests.TestBase -- Finish testing !!!!!!
+07:43:44.956 INFO  tests.TestBase -- Wrong Email login started ===> solodka1998@mail.ruAtteloiv369!
+07:43:56.227 INFO  tests.TestBase -- Finish testing !!!!!!
+07:44:06.279 INFO  tests.TestBase -- Wrong Password login started ===> solodka1998@mail.ruAtteloiv369
+07:44:07.898 INFO  tests.TestBase -- Finish testing !!!!!!
+07:44:17.929 INFO  tests.TestBase -- Wrong Password login started ===> solodka1998@mail.ruatteloiv369!
+07:44:19.105 INFO  tests.TestBase -- Finish testing !!!!!!
+07:44:29.114 INFO  tests.TestBase -- Wrong Password login started ===> solodka1998@mail.ruAtteloi369!
+07:44:30.288 INFO  tests.TestBase -- Finish testing !!!!!!
+07:44:40.332 INFO  tests.TestBase -- Wrong Password login started ===> solodka1998@mail.ruAtteloiv69!
+07:44:41.495 INFO  tests.TestBase -- Finish testing !!!!!!
+07:44:51.550 INFO  tests.TestBase -- Wrong Password login started ===> solodka1998@mail.ruAtteloiv!
+07:44:52.767 INFO  tests.TestBase -- Finish testing !!!!!!
+07:45:02.787 INFO  tests.TestBase -- Wrong Password login started ===> solodka1998@mail.ru357688369!
+07:45:03.978 INFO  tests.TestBase -- Finish testing !!!!!!
+07:45:14.000 INFO  tests.TestBase -- Wrong Password login started ===> solodka1998@mail.ruAtt369!
+07:45:15.272 INFO  tests.TestBase -- Finish testing !!!!!!
+07:45:25.300 INFO  tests.TestBase -- Wrong Password login started ===> solodka1998@mail.ru!!!!!
+07:45:26.452 INFO  tests.TestBase -- Finish testing !!!!!!
+07:45:36.513 INFO  tests.TestBase -- Wrong Password login started ===> solodka1998@mail.ruAtteloivvvvv
+07:45:37.701 INFO  tests.TestBase -- Finish testing !!!!!!
+07:45:47.754 INFO  tests.TestBase -- Wrong Password login started ===> solodka1998@mail.ruatteloivvvvv
+07:45:48.964 INFO  tests.TestBase -- Finish testing !!!!!!
+07:45:58.976 INFO  tests.TestBase -- Empty Email login started ===> User{email='solodka1998mail.ru', password='Atteloiv369!'}
+07:45:59.651 INFO  tests.TestBase -- Finish testing !!!!!!
+07:46:09.725 INFO  tests.TestBase -- Success Registration started ===>  
+FirstName = [test] 
+LastName = [test] 
+Email = [] 
+Password = [Test12345!]
+07:46:22.141 INFO  tests.TestBase -- Finish testing !!!!!!
+07:46:32.186 INFO  tests.TestBase -- Success Registration started ===>  
+FirstName = [] 
+LastName = [test] 
+Email = [test12345@test.com] 
+Password = [Test12345!]
+07:46:54.310 INFO  tests.TestBase -- Success Registration started ===>  
+FirstName = [test] 
+LastName = [] 
+Email = [test12345@test.com] 
+Password = [Test12345!]
+07:47:16.283 INFO  tests.TestBase -- Wrong Password Registration started ===>  
+FirstName = [test] 
+LastName = [test] 
+Email = [test1234@test.com] 
+Password = []
+07:47:18.195 INFO  tests.TestBase -- Finish testing !!!!!!
+07:47:28.222 INFO  tests.TestBase -- Success Registration started ===>  
+FirstName = [test] 
+LastName = [test] 
+Email = [   ] 
+Password = [Test12345!]
+07:47:40.140 INFO  tests.TestBase -- Finish testing !!!!!!
+07:47:50.164 INFO  tests.TestBase -- Wrong Password Registration started ===>  
+FirstName = [test] 
+LastName = [test] 
+Email = [test1234@test.com] 
+Password = [   ]
+07:47:52.069 INFO  tests.TestBase -- Finish testing !!!!!!
+07:48:02.091 INFO  tests.TestBase -- Success Registration started ===>  
+FirstName = [test] 
+LastName = [test] 
+Email = [test1678@test.com] 
+Password = [Test1678!]
+07:48:05.754 INFO  tests.TestBase -- Finish testing !!!!!!
+07:48:05.957 INFO  tests.TestBase -- Success Registration started ===>  
+FirstName = [test] 
+LastName = [test] 
+Email = [Test1165@test.com] 
+Password = [Test1165!]
+07:48:19.016 INFO  tests.TestBase -- Finish testing !!!!!!
+07:48:29.075 INFO  tests.TestBase -- Wrong Email Registration started ===>  
+FirstName = [Masha] 
+LastName = [Book] 
+Email = [solodka1998mail.ru] 
+Password = [Atteloiv369!]
+07:48:41.815 INFO  tests.TestBase -- Finish testing !!!!!!
+07:48:51.839 INFO  tests.TestBase -- Wrong Email Registration started ===>  
+FirstName = [Pasha] 
+LastName = [Zol] 
+Email = [solodka98@mail.] 
+Password = [Atteloiv369!]
+07:49:04.505 INFO  tests.TestBase -- Finish testing !!!!!!
+07:49:14.530 INFO  tests.TestBase -- Wrong Password Registration started ===>  
+FirstName = [Sasha] 
+LastName = [Volk] 
+Email = [solodka1@mail.ru] 
+Password = [Atteloiv369]
+07:49:17.156 INFO  tests.TestBase -- Finish testing !!!!!!
+07:49:27.220 INFO  tests.TestBase -- Wrong Password Registration started ===>  
+FirstName = [Masha] 
+LastName = [Volk] 
+Email = [solodka2@mail.ru] 
+Password = [atteloiv369!]
+07:49:29.888 INFO  tests.TestBase -- Finish testing !!!!!!
+07:49:39.954 INFO  tests.TestBase -- Wrong Password Registration started ===>  
+FirstName = [Dasha] 
+LastName = [Volk] 
+Email = [solodka3@mail.ru] 
+Password = [ATTELOIB369!]
+07:49:42.647 INFO  tests.TestBase -- Finish testing !!!!!!
+07:49:52.679 INFO  tests.TestBase -- Wrong Password Registration started ===>  
+FirstName = [Pasha] 
+LastName = [Volk] 
+Email = [solodka4@mail.ru] 
+Password = [Atteloiv!]
+07:49:55.394 INFO  tests.TestBase -- Finish testing !!!!!!
+07:50:05.421 INFO  tests.TestBase -- Wrong Password Registration started ===>  
+FirstName = [Sasha] 
+LastName = [Book] 
+Email = [solodka5@mail.ru] 
+Password = [357688369!]
+07:50:08.028 INFO  tests.TestBase -- Finish testing !!!!!!
+07:50:18.036 INFO  tests.TestBase -- Wrong Password Registration started ===>  
+FirstName = [Masha] 
+LastName = [Book] 
+Email = [solodka6@mail.ru] 
+Password = [AAAAA369!]
+07:50:20.617 INFO  tests.TestBase -- Finish testing !!!!!!
+07:50:30.642 INFO  tests.TestBase -- Wrong Password Registration started ===>  
+FirstName = [Pasha] 
+LastName = [Book] 
+Email = [solodka7@mail.ru] 
+Password = [!!!!!]
+07:50:33.276 INFO  tests.TestBase -- Finish testing !!!!!!
+07:50:43.319 INFO  tests.TestBase -- Wrong Password Registration started ===>  
+FirstName = [Sasha] 
+LastName = [Zol] 
+Email = [solodka8@mail.ru] 
+Password = [AAAAAAAAAA]
+07:50:46.039 INFO  tests.TestBase -- Finish testing !!!!!!
+07:50:56.090 INFO  tests.TestBase -- Wrong Password Registration started ===>  
+FirstName = [Dasha] 
+LastName = [Zol] 
+Email = [solodka9@mail.ru] 
+Password = [atteloivvvvv]
+07:50:58.708 INFO  tests.TestBase -- Finish testing !!!!!!

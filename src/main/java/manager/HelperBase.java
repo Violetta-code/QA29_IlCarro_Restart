@@ -1,12 +1,12 @@
 package manager;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import com.google.common.io.Files;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 
@@ -70,8 +70,17 @@ public class HelperBase {
         return res && !result;
     }
 
-
     public String getErrorText() {
         return wd.findElement(By.cssSelector("div.error")).getText();
+    }
+
+    public void getScreen(String link) {
+        TakesScreenshot ts= (TakesScreenshot) wd;
+        File fileTakesScreenshot = ts.getScreenshotAs(OutputType.FILE);
+        try {
+            Files.copy(fileTakesScreenshot, new File(link));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

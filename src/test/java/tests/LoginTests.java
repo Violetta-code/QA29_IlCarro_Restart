@@ -45,10 +45,24 @@ public class LoginTests extends TestBase{
             Assert.assertEquals(app.getHelperUser().getMessage(), "\"Login or Password incorrect\"");
             app.getHelperUser().buttonOk();
         }else {
-            Assert.assertEquals(app.getHelperUser().getErrorText(), "It'snot look like email");
+            Assert.assertEquals(app.getHelperUser().getMessage(), "Cannot read properties of undefined (reading 'data')");
+            app.getHelperUser().buttonOk();
         }
         logger.info("Finish testing !!!!!!");
     }
+
+    @Test
+    public void loginWrongSymbolEmail(){
+        User user = new User().withEmail("solodka1998mail.ru").withPassword("Atteloiv369!");
+        logger.info("Empty Email login started ===> "+user);
+        app.getHelperUser().openLoginForm();
+        app.getHelperUser().fillLoginForm(user);
+        app.getHelperUser().buttonYalla();
+
+        Assert.assertEquals(app.getHelperUser().getErrorText(), "It'snot look like email");
+        logger.info("Finish testing !!!!!!");
+    }
+
 
     @Test
     public void loginEmptyEmail(){
@@ -81,8 +95,10 @@ public class LoginTests extends TestBase{
         app.getHelperUser().fillLoginForm(user);
         app.getHelperUser().buttonYalla();
 
+
         Assert.assertEquals(app.getHelperUser().getMessage(), "\"Login or Password incorrect\"");
         app.getHelperUser().buttonOk();
+
         logger.info("Finish testing !!!!!!");
     }
 
