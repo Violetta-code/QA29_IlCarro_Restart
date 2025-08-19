@@ -60,4 +60,13 @@ public class HelperUser extends HelperBase {
             actions.moveToElement(label, xOffSet, 0).click().release().perform();
         }
     }
+
+    //=========================================Add New Car=================================================
+
+    public void login(User user) {
+        openLoginForm();
+        fillLoginForm(user);
+        buttonYalla();
+        buttonOk();
+    }
 }

@@ -17,6 +17,7 @@ public class ApplicationManager {
     HelperUser helperUser;
     String browser;
     Logger logger= LoggerFactory.getLogger(ApplicationManager.class);
+    HelperCar helperCar;
 
     public ApplicationManager() {
         this.wd = wd;
@@ -30,6 +31,7 @@ public class ApplicationManager {
         wd.navigate().to("https://ilcarro.web.app/");
         logger.info("Open link --->"+wd.getCurrentUrl());
         helperUser = new HelperUser(wd);
+        helperCar= new HelperCar(wd);
 
     }
     public void stop(){
@@ -41,5 +43,8 @@ public class ApplicationManager {
         return helperUser;
     }
 
+    public HelperCar getHelperCar() {
+        return helperCar;
+    }
 
 }

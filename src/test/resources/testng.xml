@@ -5,6 +5,7 @@
         <classes>
             <class name="tests.LoginTests"/>
             <class name="tests.RegistrationTests"/>
+            <class name="tests.AddNewCarTests"/>
         </classes>
     </test>
 
